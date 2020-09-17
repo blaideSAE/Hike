@@ -8,8 +8,8 @@
 AHikeGameMode::AHikeGameMode()
 	: Super()
 {
-	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter"));
+	// set default pawn class to our Blueprinted character "/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter"
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter")); // /Game/Blueprints/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
