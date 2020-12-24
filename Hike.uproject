@@ -85,11 +85,11 @@
 		}
 	],
 	"TargetPlatforms": [
-		"AllDesktop",
 		"LinuxAArch64NoEditor",
 		"MacNoEditor",
 		"WindowsNoEditor",
 		"LinuxNoEditor",
-		"WindowsNoEditorWin32"
+		"WindowsNoEditorWin32",
+		"AllDesktop"
 	]
 }
